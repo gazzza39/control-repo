@@ -12,7 +12,7 @@ class system_users::admin {
       ensure => latest,
     }
     user { 'admin':
-      group   => 'staff',
+      groups   => 'staff',
       shell   => '/bin/csh',
       require => Package['csh'],
     }
