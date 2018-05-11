@@ -1,4 +1,4 @@
-class system_users::nginx {
+class nginx {
 
   package { 'nginx':
     ensure => 'installed',
