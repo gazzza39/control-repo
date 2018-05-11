@@ -1,4 +1,4 @@
-class host_entries {
+class system_users::hostsfile {
 
   # create a simple hostname and ip host entry
   host { 'testing.puppetlabs.vm':
